@@ -1,13 +1,18 @@
 import React from "react";
+// import 'devicon/devicon.min.css';
+// import {  } from "devicon";
+import 'devicon/devicon.min.css';
+// import 'devicon/devicon-colors.css';
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+// import { CgCPlusPlus } from "react-icons/cg";
 import {
   // DiJavascript1,
   // DiReact,
   // DiNodejs,
   // DiMongodb,
-  DiPython,
-  DiGit,
+  // DiPython,
+  // DiGit,
+  // DiRor,
   // DiJava,
 } from "react-icons/di";
 import {
@@ -23,7 +28,8 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        {/* <CgCPlusPlus /> */}
+        <i class="devicon-cplusplus-plain"></i>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -47,7 +53,8 @@ function Techstack() {
         <SiNextdotjs />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        {/* <DiGit /> */}
+        <i class="devicon-git-plain"></i>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
@@ -58,12 +65,15 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col>
+      </Col> */}
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+      <i className="devicon-r-plain"></i>
+      </Col>
     </Row>
   );
 }
