@@ -29,7 +29,7 @@ function Home2() {
               <br />
               I have a deep love for subjects like &nbsp;
               <i>
-                <b className="purple">Mathematics, Linear Algebra, Combinatorics, Graph Theory, Operating Systems, Databases, Distributed Systems, Computer Networks, Data Structures, Statistics, AI/ML, R, Python and Cryptography. </b>
+                <b className="purple">Linear Algebra, Combinatorics, Graph Theory, Calculus, Statistics, Operating Systems, Databases, Distributed Systems, Computer Networks, Data Structures, AI/ML, R and Cryptography. </b>
               </i>
               <br />
               <br />

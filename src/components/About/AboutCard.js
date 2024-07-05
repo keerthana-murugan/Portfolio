@@ -9,11 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Neeraj </span>
-            from <span className="purple"> West Bengal, India.</span>
+            based in <span className="purple"> Chennai, Tamil Nadu, India.</span>
             <br />
             I'm currently pursuing a Master of Engineering in Computer Science and Engineering with a specialization in Big Data Analytics from <span className="purple">Anna University, Chennai.</span>
             <br />
-            I'm passionate about <span className="purple">Mathematics</span> and <span className="purple">Computer Science.</span>
+            I'm passionate about <span className="purple">Computer Science</span> and <span className="purple">Mathematics</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
